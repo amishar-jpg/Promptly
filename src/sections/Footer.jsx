@@ -153,7 +153,7 @@ const Footer = () => {
   };
 
   return (
-    <footer id="footer" className="relative overflow-hidden">
+  <footer id="footer" className="relative overflow-hidden bg-gradient-to-tr from-slate-900 via-zinc-900 to-gray-900 text-white">
       {/* Animated gradient border at top */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-400 via-emerald-400 to-teal-400" style={{ boxShadow: '0 0 20px rgba(20, 184, 166, 0.5)' }}></div>
       
